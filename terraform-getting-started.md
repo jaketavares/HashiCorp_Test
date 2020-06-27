@@ -1,6 +1,6 @@
 # Getting Started With Terraform
 
-Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). Terraform is also a tool for building, changing, and managing infrastructure in a safe, repeatable way. Operators and infrastructure teams can use Terraform to manage environments with a configuration language called the HashiCorp Configuration Language (HCL) for human-readable, automated deployments.
+Terraform is the most popular language for defining and provisioning infrastructure as code (IaC). It is also a tool for building, changing, and managing infrastructure in a safe, repeatable way. Operators and infrastructure teams can use Terraform to manage environments with a configuration language called the HashiCorp Configuration Language (HCL) for human-readable, automated deployments.
 
 In this tutorial, you will learn how to install Terraform on the AWS platform, build infrastructure, initialize Terraform, and destroy infrastructure.
 
@@ -11,11 +11,11 @@ To follow this tutorial, you will need:
 - An AWS account
 - The [AWS CLI](https://kubernetes.io/docs/tasks/tools/install-kubectl/) client installed
 - Your AWS credentials configured locally
-- A Docker account
+- Docker
 
 ## Install Terraform on the AWS Platform
 
-To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the executable file needed for your system.
+To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the executable file needed for your environment.
 
 After downloading Terraform, unzip the package. Terraform runs as a single binary named `terraform`. Any other files in the package can be safely removed, and Terraform will still function. (You can also compile the Terraform binary from source.)
 
@@ -96,12 +96,10 @@ Click [here](https://learn.hashicorp.com/terraform/getting-started/destroy) for 
 
 ## Next Steps
 
-Now that you have learned how to install and initialize Terraform, as well as build and destroy infrastructure, continue to the next tutorial in this track to on [resource dependencies](https://learn.hashicorp.com/terraform/getting-started/dependencies), where you will not only see a configuration with multiple resources for the first time, but also scenarios where resource parameters use information from other resources.
+Now that you have learned how to install and initialize Terraform and build and destroy infrastructure, continue to the next tutorial in this track on [resource dependencies](https://learn.hashicorp.com/terraform/getting-started/dependencies), where you will not only see a configuration with multiple resources for the first time, but also scenarios where resource parameters use information from other resources.
 
-Here are more resources and information that you may find helpful:
+Here are links to more resources and information that you may find helpful:
 
 - Read about the format of the configuration files in the [Terraform documentation](https://www.terraform.io/docs/configuration/index.html).
 - Review this [blog post](https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/) to go beyond the basics with Terraform and AWS.
 - Sign up for this [webinar](https://www.hashicorp.com/webinars/improved-workflows-with-terraform/) on improving workflows with Terraform 0.13.
-
-
