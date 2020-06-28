@@ -4,7 +4,7 @@ Terraform is the most popular language for defining and provisioning infrastruct
 
 In this tutorial, you will learn how to install Terraform on the AWS platform, build infrastructure, initialize Terraform, and destroy infrastructure.
 
-See [Introduction to Infrastructure as Code with Terraform](https://learn.hashicorp.com/terraform/getting-started/intro) for more on infrastructure as code, deployment workflows, and the advantages of Terraform. 
+See [Introduction to Infrastructure as Code with Terraform](https://learn.hashicorp.com/terraform/getting-started/intro) for more on IaC, deployment workflows, and the advantages of Terraform. 
 
 ## Prerequisites
 To follow this tutorial, you will need:
