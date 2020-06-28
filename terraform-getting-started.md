@@ -17,7 +17,7 @@ To follow this tutorial, you will need:
 
 To install Terraform, visit [Terraform.io](https://www.terraform.io/downloads.html) and download the executable file needed for your environment.
 
-After downloading Terraform, unzip the package. Terraform runs as a single binary named `terraform`. Any other files in the package can be safely removed, and Terraform will still function. (You can also compile the Terraform binary from source.)
+After downloading Terraform, unzip the package. Terraform runs as a single binary named `terraform`. You can safely remove any other files in the package, and Terraform will still function. (You can also compile the Terraform binary from source.)
 
 Finally, make sure that the terraform binary is available on your PATH. This process will differ depending on your operating system.
 
